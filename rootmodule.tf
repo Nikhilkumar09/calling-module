@@ -5,6 +5,6 @@ module "STRING_MODULE" {
 
 output "example" {
 
-value = module.STRING_MODULE.result
+value = module.STRING_MODULE.string
 
 }
